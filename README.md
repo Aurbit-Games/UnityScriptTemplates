@@ -8,7 +8,8 @@ A **simple and customizable** script template system for Unity. Easily create sc
 - **Class**  
 - **Interface**  
 - **Editor Window**  
-- **Custom Editor**  
+- **Custom Editor**
+
 ✔️ Create your own templates via **Tools > Script Template Creator**  
 
 ## **Installation**  
