@@ -6,7 +6,7 @@ using UnityEditor;
 #endif
 public static class ScriptTemplateCreator
 {
-    [MenuItem("Assets/Create/Script/Mono Behavior", priority = 1)]
+    [MenuItem("Assets/Create/Script/MonoBehaviour", priority = 1)]
     public static void CreateMonoBehaviorItem()
     {
         string path = "Assets/Scripts/Editor/Custom Script Templates/Templates/MonoBehaviour.cs.txt";
