@@ -9,7 +9,7 @@ using UnityEditor;
 #endif
 public static class ScriptTemplateCreator
 {
-    public const string Path = "Assets/Scripts/Editor/Custom Script Templates/Templates";
+    public const string Path = "Assets/Scripts/Editor/ScriptTemplates/Templates";
     public static string GetTemplatePath(string template)
     {
         return $"{Path}/{template}.cs.txt";
