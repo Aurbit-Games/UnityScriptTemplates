@@ -143,7 +143,7 @@ public class #SCRIPTNAME#
     [MenuItem(""Assets/Create/Script/{_templateName}"", priority = {_priorityIndex})]
     public static void Create{identifier}Item()
     {{
-        string path = ""{_templatesFolderPath}/{identifier}.cs.txt"";
+        string path = GetTemplatePath(""{identifier}"");
 
         ProjectWindowUtil.CreateScriptAssetFromTemplateFile(path, ""New{identifier}.cs"");
     }}
